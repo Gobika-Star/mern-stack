@@ -1,0 +1,99 @@
+/* Universal selector */
+* {
+  border: 2px solid red;
+}
+
+/* Tag selector */
+h1 {
+  background-color: green;
+}
+
+/* ID selector */
+#a {
+  color: red;
+  background-color: goldenrod;
+}
+
+/* Class selector */
+.b {
+  color: blue;
+  border: 10px solid;
+}
+
+/* Group selector */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* Descendant selector */
+div p {
+  color: red;
+  background-color: blue;
+}
+
+/* Child selector */
+div > p {
+  color: green;
+  background-color: bisque;
+}
+
+/* Attribute selector */
+button[type="submit"] {
+  color: greenyellow;
+  font-size: 20px;
+}
+
+
+
+/* li:nth-child(2) — not l1-child(2) */
+li:nth-child(2) {
+  color: red;
+  font-size: 20px;
+}
+
+/* li:hover (not l1:over) */
+li:hover {
+  color: yellow;
+  background-color: red;
+  font-size: 30px;
+}
+
+/* Pseudo-element */
+#r::before {
+  content: "Written by CSS ";
+}
+
+.b::first-letter {
+  font-size: 40px;
+  color: red;
+}
+
+#q {
+  display: block;
+}
+
+#q::first-letter {
+  font-size: 40px;
+  color: red;
+}
+
+#q::first-line {
+  color: yellow;
+  font-size: 32px;
+}
+
+/* Reset margin & padding */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Box model */
+h1:nth-child(1) {
+  border: 3px solid red;
+  padding: 30px;
+  padding: 10px 20px 30px 60px; /* top right bottom left */
+  padding: 20px 30px; /* top-bottom | left-right */
+  margin: 80px;
+}
