@@ -1,0 +1,33 @@
+.container
+{
+    width:30wh;
+    height: 80wh;
+    border:1px solid rgb(225, 65, 188);
+}
+h1
+{
+    background-color:rgb(17, 16, 15);
+    font-weight:700;
+    color:rgb(73, 212, 198);
+}
+.sticky
+{
+    position:sticky;
+    top:20px;
+}
+.relative
+{
+    position:relative;
+}
+.absolute
+{
+    position:absolute;
+    top:20px;
+    right:30px;
+}
+.fixed
+{
+    position:fixed;
+    bottom:20px;
+    right:30px;
+}
